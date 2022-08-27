@@ -1,71 +1,42 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '',
+  title: 'Dika AF.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Dika Adrian Farazi',
+  role: 'Beginner Front End Dev',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
-  social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    'Saya seorang lulusan SMK jurusan Teknik Komputer dan Jaringan. Saya adalah oranga yang sangat tertarik dengan dunia teknologi dan design. Saya suka mengikuti trend teknologi yang berkembang dan perkembangan design yang terus meningkat hingga saat ini.',
+  social: {https:'//github.com/Dhika-afk',
+    linkedin: 'https://www.linkedin.com/in/dika-adrian-farazi-16a875224/',
+    github: 'https://github.com/Dhika-afk',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'TerraFresh',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'TerraFresh merupakan salah satu platform penyedia layanan jual beli buah dan sayuran organik yang menghubungkan antara penjual dan pembeli secara online. Aplikasi ini menekankan pada kualitas buah dan sayuran organik tanpa bahan kimia berbasis penerapan ilmu bioteknologi',
+    sourceCode: 'https://github.com/lazminutes/TerraFresh',
+    livePreview: 'https://terrafresh.netlify.app/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Design',
+  'AdobeIllustrator',
+  'AdobePhotoshop',
+  'Figma'
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'dikarian475@mail.com',
 }
 
 export { header, about, projects, skills, contact }
